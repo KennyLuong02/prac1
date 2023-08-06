@@ -18,7 +18,7 @@ Human::Human(string name) {
 
 Move* Human::makeMove() {
     string m_move;
-    cout << "Enter move: ";
+    // cout << "Enter move: ";
     cin >> m_move;
 
     if (m_move == "Rock")

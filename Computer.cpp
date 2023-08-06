@@ -4,7 +4,7 @@
 #include "RPS.h"
 
 Computer::Computer() {
-    
+    name = "Computer";
 }
 
 Move* Computer::makeMove() {
@@ -13,5 +13,5 @@ Move* Computer::makeMove() {
 }
 
 std::string Computer::getName() {
-    return "Computer";
+    return name;
 }

@@ -5,6 +5,14 @@
 
 using namespace std;
 
+Monkey::Monkey() {
+    name = "Monkey";
+}
+
+Monkey::Monkey(string na) {
+    name = na;
+}
+
 string Monkey::getName() {
     return name;
 }
@@ -19,6 +27,14 @@ int Monkey::win_against(const string& na) {
     return 0;
 }
 
+
+Ninja::Ninja() {
+    name = "Ninja";
+}
+
+Ninja::Ninja(string na) {
+    name = na;
+}
 
 string Ninja::getName() {
     return name;
@@ -35,6 +51,14 @@ int Ninja::win_against(const string& na) {
 }
 
 
+Pirate::Pirate() {
+    name = "Pirate";
+}
+
+Pirate::Pirate(string na) {
+    name = na;
+}
+
 string Pirate::getName() {
     return name;
 }
@@ -50,6 +74,14 @@ int Pirate::win_against(const string& na) {
 }
 
 
+Robot::Robot() {
+    name = "Robot";
+}
+
+Robot::Robot(string na) {
+    name = na;
+}
+
 string Robot::getName() {
     return name;
 }
@@ -62,6 +94,15 @@ int Robot::win_against(const string& na) {
     }
 
     return 0;
+}
+
+
+Zombie::Zombie() {
+    name = "Zombie";
+}
+
+Zombie::Zombie(string na) {
+    name = na;
 }
 
 string Zombie::getName() {

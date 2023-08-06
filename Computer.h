@@ -8,7 +8,7 @@
 using namespace std;
 
 
-class Computer : public Player {
+class Computer: public Player {
 public:
     Computer();
     Move* makeMove() ;

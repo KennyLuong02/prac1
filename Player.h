@@ -16,8 +16,8 @@ class Player {
         virtual Move* makeMove() = 0;
 
         virtual string getName() = 0;
-        virtual void setMove(char M) = 0;
-        virtual void setName(string na) = 0;
+        // virtual void setMove(char M) = 0;
+        // virtual void setName(string na) = 0;
 
         // virtual char makeMove() = 0;
         // virtual string getName() = 0;

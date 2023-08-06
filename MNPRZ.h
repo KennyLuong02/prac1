@@ -9,6 +9,8 @@ using namespace std;
 
 class Monkey: public Move {
     public:
+        Monkey();
+        Monkey(string na);
         string getName();
         int win_against(const string& na);
 
@@ -16,6 +18,8 @@ class Monkey: public Move {
 
 class Ninja: public Move {
     public:
+        Ninja();
+        Ninja(string na);
         string getName();
         int win_against(const string& na);
 
@@ -23,6 +27,8 @@ class Ninja: public Move {
 
 class Pirate: public Move {
     public:
+        Pirate();
+        Pirate(string na);
         string getName();
         int win_against(const string& na);
 
@@ -30,6 +36,8 @@ class Pirate: public Move {
 
 class Robot: public Move {
     public:
+        Robot();
+        Robot(string na);
         string getName();
         int win_against(const string& na);
 
@@ -37,6 +45,8 @@ class Robot: public Move {
 
 class Zombie: public Move {
     public:
+        Zombie();
+        Zombie(string na);
         string getName();
         int win_against(const string& na);
 

@@ -12,6 +12,8 @@ using namespace std;
 
 class Rock: public Move {
     public:
+        Rock();
+        Rock(string na);
         string getName(); 
         // virtual void setName(string na) = 0;
         int win_against(const string& na);
@@ -20,6 +22,8 @@ class Rock: public Move {
 
 class Paper: public Move {
     public:
+        Paper();
+        Paper(string na);
         string getName(); 
         // virtual void setName(string na) = 0;
         int win_against(const string& na);
@@ -28,6 +32,8 @@ class Paper: public Move {
 
 class Scissors: public Move {
     public:
+        Scissors();
+        Scissors(string na);
         string getName(); 
         // virtual void setName(string na) = 0;
         int win_against(const string& na);
