@@ -11,7 +11,7 @@ using namespace std;
 class Computer : public Player {
 public:
     Computer();
-    char makeMove() ;
+    Move* makeMove() ;
     string getName();
 };
 
