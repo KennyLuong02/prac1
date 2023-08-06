@@ -6,13 +6,17 @@
 
 using namespace std;
 
+// template
+// unorder_map<string, Move> umap;
+
 class Move {
     protected:
         string name;
 
     public:
         virtual string getName() = 0; 
-        virtual void setName(string na) = 0;
+        // virtual void setName(string na) = 0;
+        virtual int win_against(const string& name) = 0;
 
 };
 

@@ -3,16 +3,18 @@
 #define HUMAN_H
 #include <iostream>
 #include "Player.h"
+#include "Move.h"
 
 using namespace std;
 
 class Human: public Player {
     private:
+    
 
     public:
         Human();
         Human(string name);
-        char makeMove();
+        Move* makeMove();
         string getName();
 };
 
